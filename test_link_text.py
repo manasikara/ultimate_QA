@@ -1,5 +1,5 @@
 #https://ultimateqa.com/simple-html-elements-for-automation/
-#click a button using Name
+#click a button by xPath
 
 from playwright.sync_api import sync_playwright
 
@@ -7,7 +7,7 @@ with sync_playwright() as p:
     browser = p.chromium.launch(headless=False)
     page = browser.new_page()
     page.goto('https://ultimateqa.com/simple-html-elements-for-automation/')
-    page.locator("[name=button1]").click
+    page.click('text=Clickable Icon')
     print(page.title())
-    browser.close
+    browser.close  
     
