@@ -1,2 +1,2 @@
 # ultimate_QA
- automation learning via --> https://ultimateqa.com/simple-html-elements-for-automation/
+ automation learning --> https://ultimateqa.com/simple-html-elements-for-automation/
